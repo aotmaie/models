@@ -32,9 +32,9 @@ slim = tf.contrib.slim
 _FILE_PATTERN = "images_%s_*.tfrecord"
 
 # be sure to change these! this one is the number of images you're training on
-SPLITS_TO_SIZES = {"train": 3457, "validation": 400}
+SPLITS_TO_SIZES = {"train": 3457, "validation": 550}
 # this one is the number of labels in your dataset
-_NUM_CLASSES = 12
+_NUM_CLASSES = 715
 
 _ITEMS_TO_DESCRIPTIONS = {
     "image": "A color image of varying size.",
@@ -43,6 +43,7 @@ _ITEMS_TO_DESCRIPTIONS = {
 
 
 def get_split(split_name, dataset_dir, file_pattern=None, reader=None):
+    
     """Gets a dataset tuple with instructions for reading images.
 
   Args:
