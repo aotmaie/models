@@ -38,7 +38,7 @@ import tensorflow as tf
 from datasets import dataset_utils
 
 # The URL where the data can be downloaded.
-_DATA_URL = "https://dl.dropbox.com/home?preview=nabirds.tar.gz"
+_DATA_URL = "https://www.dropbox.com/s/tazwtrnv3yx4a8d/nabirds.tar.gz"
 
 # The number of images in the validation set.
 _NUM_VALIDATION = 550
