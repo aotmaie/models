@@ -24,6 +24,7 @@ The script should take about a minute to run.
 """
 
 from __future__ import absolute_import
+
 from __future__ import division
 from __future__ import print_function
 
@@ -37,7 +38,7 @@ import tensorflow as tf
 from datasets import dataset_utils
 
 # The URL where the data can be downloaded.
-_DATA_URL = "https://www.dropbox.com/s/tazwtrnv3yx4a8d/nabirds.tar.gz?dl=0"
+_DATA_URL = "https://dl.dropbox.com/home?preview=nabirds.tar.gz"
 
 # The number of images in the validation set.
 _NUM_VALIDATION = 550
