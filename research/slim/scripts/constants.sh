@@ -48,7 +48,7 @@ output_tensors_map["inception_v3"]="InceptionV3/Predictions/Reshape_1"
 output_tensors_map["inception_v4"]="InceptionV4/Logits/Predictions"
 
 # Change this parameter to suit your custom dataset's name
-DATASET_NAME="custom"
+DATASET_NAME="custom_photos.zip"
 # Assuming scripts are in tensorflow/models/research/slim/scripts folder.
 SLIM_DIR="$PWD"
 LEARN_DIR="../${DATASET_NAME}/learn"
