@@ -34,7 +34,7 @@ _FILE_PATTERN = "images_%s_*.tfrecord"
 # be sure to change these! this one is the number of images you're training on
 SPLITS_TO_SIZES = {"train": 200, "validation": 55}
 # this one is the number of labels in your dataset
-_NUM_CLASSES = 1010
+_NUM_CLASSES = 2
 
 _ITEMS_TO_DESCRIPTIONS = {
     "image": "A color image of varying size.",
